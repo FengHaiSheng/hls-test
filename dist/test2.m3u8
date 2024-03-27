@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:11
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-KEY:METHOD=AES-128,URI="/hlskey2",IV=0x1e588f7aa2d3c1aed9e5dac466499a1a
+#EXTINF:10.080,
+http://esb2a5pe-pub.pubcloudtest.edusoho.cn/25/06103e2d9858470dac35ae631b549586/Fmq-pi7V5qo01ay1-merged-sd_seg_0_ehls_fbee1b?schoolId=25&fileGlobalId=06103e2d9858470dac35ae631b549586
+#EXT-X-KEY:METHOD=AES-128,URI="/hlskey2",IV=0xf25d8e7a6d3af7e95ad8b77ed5b5e3e7
+#EXTINF:1.160,
+http://esb2a5pe-pub.pubcloudtest.edusoho.cn/25/06103e2d9858470dac35ae631b549586/Fmq-pi7V5qo01ay1-merged-sd_seg_1_ehls_fdc462?schoolId=25&fileGlobalId=06103e2d9858470dac35ae631b549586
+#EXT-X-ENDLIST

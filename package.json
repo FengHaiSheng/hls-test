@@ -1,0 +1,19 @@
+{
+  "name": "hls-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "preview": "npx http-server dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hls.js": "^1.5.7"
+  },
+  "devDependencies": {
+    "cssnano": "^6.1.2",
+    "http-server": "^14.1.1"
+  }
+}
