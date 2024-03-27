@@ -28558,7 +28558,7 @@ if (_hls.default.isSupported()) {
   hls.on(_hls.default.Events.MANIFEST_PARSED, function (event, data) {
     console.log('manifest loaded, found ' + data.levels.length + ' quality level');
   });
-  hls.loadSource("/test1.m3u8");
+  hls.loadSource("/resources/test1.m3u8");
   hls.attachMedia(video);
 }
 },{"hls.js":"node_modules/hls.js/dist/hls.mjs"}],"../../.nvm/versions/node/v16.20.2/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

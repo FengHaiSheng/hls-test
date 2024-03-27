@@ -18,6 +18,6 @@ if (Hls.isSupported()) {
     console.log('manifest loaded, found ' + data.levels.length + ' quality level');
   });
 
-  hls.loadSource(`/test2.m3u8`);
+  hls.loadSource(`/resources/test2.m3u8`);
   hls.attachMedia(video);
 }
